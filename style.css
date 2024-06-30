@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: "Comic";
+    src: url("./ComicNeue-Bold.ttf");
+}
+
 body {
     background: whitesmoke;
     overflow-x: hidden !important;
@@ -6,7 +11,7 @@ body {
 
 * {
     font-size: 1rem;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic";
     margin: 0;
     padding: 0;
 }
